@@ -1,0 +1,350 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+/* HTML */
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 3000px;
+    margin: 0;
+}
+
+
+
+/* HEADER */
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #202020;
+    height: 151px;
+    border-style: solid;
+    border-color: #ffda09;
+    border-width: 0px 0px 5px 0px;
+}
+#logo-1 {
+    position: relative;
+    object-fit: contain;
+    width: 80px;
+    top: 34px;
+    left: 134px;
+}
+.search-form, .search-form input{
+    position: fixed;
+}
+.search-form input {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffda09;
+    border-width: 0px 0px 2px 0px;
+    width: 183px;
+    height: 40px;
+    top: 52px;
+    left: 436px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+.search-form input:focus {
+    outline: none;
+    background-color: #4d4d4d;
+}
+.header-href {
+    transition: 50ms;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    padding-top: 65px;
+    padding-bottom: 59px;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    margin-right: 2%;
+    left: 624px;
+    top: -1px;
+    text-decoration: none;
+    letter-spacing: 3px;
+  }
+.header-href:hover {
+    border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color: white;
+}
+.header-btn {
+    transition: 50ms;
+    position: relative;
+    color: #ffda09;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: #ffda09;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 17px;
+    width: 158px;
+    height: 46px;
+    letter-spacing: 3px;
+}
+.header-btn:hover {
+    background-color: #ffda09;
+    color: #202020;
+}
+#btn-1 {
+    top: 0px;
+    left: 790px;
+}
+#btn-2 {
+    top: 0px;
+    left: 820px;
+}
+.fa-magnifying-glass {
+    position: fixed;
+    color: #ffda09;
+    top: 60px;
+    left: 399px;
+}
+
+
+
+/* HERO BANNER SECTION */
+.hero-banner {
+    transition: 200ms;
+    position: relative;
+    object-fit: contain;
+    width: 1920px;
+    top: 155px;
+    left: 0px;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: #ffda09;
+    opacity: 0.2;
+}
+.hero-banner:hover {
+    opacity: 0.1;
+}
+.hero-tittle-1 {
+    position: relative;
+    top: -473px;
+    text-align: center;
+    color: #ffda09;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 57px;
+    text-shadow: 0px 0px 20px #000000;
+}
+.hero-text-1 {
+    position: relative;
+    color: white;
+    top: -520px;
+    font-size: 50px;
+    text-shadow: 0px 0px 20px #000000;
+    text-align: center;
+}
+.hero-text-2 {
+    transition: 150ms;
+    position: relative;
+    color: #ffda09;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffda09;
+    width: 204px;
+    height: 72px;
+    top: -518px;
+    left: 811px;
+    border-width: 5px;
+    letter-spacing: 2px;
+}
+.hero-text-2:hover {
+    color: #202020;
+    background-color: #ffda09;
+}
+
+
+
+/* DEVIDER 1 */
+.devider-1 {
+    position: relative;
+    background-color: #ffda09;
+    top: -196px;
+    height: 5px;
+}
+
+
+
+/* COMPANY PROFILE */
+.bg-profile {
+    z-index: -1;
+    position: relative;
+    top: -196px;
+    left: 363px;
+    object-fit: contain;
+    width: 1503px;
+}
+.profile-container {
+    position: relative;
+    top: -828px;
+    left: 147px;
+}
+.company-profile-title {
+    position: relative;
+    color: white;
+    letter-spacing: 1px;
+}
+.profile-paragraph {
+    position: relative;
+    color: white;
+    text-align: justify;
+    width: 861px;
+}
+
+
+
+/* DEVIDER 2 */
+.devider-2 {
+    position: relative;
+    background-color: #ffda09;
+    top: -481px;
+    height: 5px;
+}
+
+
+
+/* CONTACT */
+.contact-bg {
+    position: relative;
+    top: -481px;
+    object-fit: contain;
+}
+.contact-h1 {
+    position: relative;
+    color: white;
+    letter-spacing: 3px;
+    top: -959px;
+    left: 164px;
+    font-size: 27px;
+}
+.company-contact h2 {
+    position: relative;
+    color: white;
+    letter-spacing: 1px;
+    top: -1002px;
+    left: 159px;
+    font-size: 72px;
+}
+.contact-h1-2 {
+    position: relative;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 27px;
+    top: -652px;
+    left: 165px;
+}
+.make-call {
+    top: 2861px;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+#call-1 {
+    left: 305px;
+}
+#call-2 {
+    left: 756px;
+}
+#call-3 {
+    left: 1192px;
+}
+
+
+
+/* ANCHOR */
+#anchor-1 {
+    visibility: hidden;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 0px;
+    left: 0px;
+}
+#anchor-2 {
+    visibility: hidden;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 826px;
+    left: 0px;
+}
+#anchor-3 {
+    visibility: hidden;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 1677px;
+    left: 0px;
+}
+
+
+
+/* FOOTER */
+footer {
+    position: relative;
+    background-color: #ffda09;
+    height: 201px;
+    top: -223px;
+}
+/* footer img {
+    position: relative;
+    object-fit: contain;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+} */
+footer h1 {
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-align: center;
+    top: 45px;
+}
+.social-media {
+    position: relative;
+    left: 869px;
+    top: 50px;
+}
+#icon-1 {
+    position: relative;
+    left: 0px;
+}
+#icon-2 {
+    position: relative;
+    left: 15px;
+}
+#icon-3 {
+    position: relative;
+    left: 33px;
+}
+footer p {
+    position: relative;
+    text-align: center;
+    top: 77px;
+}

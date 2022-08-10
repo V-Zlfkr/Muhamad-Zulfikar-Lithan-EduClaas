@@ -1,0 +1,138 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+/* HTML */
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+/* HEADER */
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #202020;
+    height: 151px;
+    border-style: solid;
+    border-color: #ffda09;
+    border-width: 0px 0px 5px 0px;
+}
+#logo-1 {
+    position: relative;
+    object-fit: contain;
+    width: 80px;
+    top: 34px;
+    left: 134px;
+}
+.sign-in-title {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    top: -48px;
+    left: 268px;
+}
+.header-btn {
+    top: -109px;
+    transition: 50ms;
+    position: relative;
+    color: #ffda09;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: #ffda09;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 17px;
+    width: 158px;
+    height: 46px;
+    letter-spacing: 3px;
+}
+.header-btn:hover {
+    background-color: #ffda09;
+    color: #202020;
+}
+#btn-1 {
+    left: 1387px;
+}
+#btn-2 {
+    left: 1420px;
+}
+
+
+
+/* LOGIN FORM */
+.login-form {
+    position: absolute;
+    width: 799px;
+    height: 580px;
+    background-color: #313131;
+    top: 292px;
+    left: 531px;
+}
+#title {
+    position: relative;
+    text-align: center;
+    color: #ffda09;
+    top: 90px;
+}
+.login-form form input {
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffda09;
+    background-color: #474747;
+    color: #ffda09;
+    height: 30px;
+    width: 327px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 1px;
+    left: 224px;
+}
+#input-1 {
+    top: 220px;
+}
+#input-2 {
+    top: 295px;
+}
+#submit {
+    transition: 50ms;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    color: #ffda09;
+    border-style: solid;
+    border-color: #ffda09;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    top: 408px;
+    left: 354px;
+}
+#submit:hover {
+    color: #474747;
+    background-color: #ffda09;
+}
+.warning-msg {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: red;
+}

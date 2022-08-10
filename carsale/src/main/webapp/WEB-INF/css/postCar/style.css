@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* HTML */
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* FORM */
+.form-container {
+    position: relative;
+    background-color: #4b4b4b;
+    width: 1209px;
+    height: 631px;
+    top: 223px;
+}
+.form-container form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input {
+    position: relative;
+    background-color: #4b4b4b;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffda09;
+    color: white;
+    width: 500px;
+    height: 25px;
+    margin: 25px 0 25px 0;
+}
+.input::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.5;
+    color: #ffda09;
+}
+.form-container form button {
+    position: relative;
+    width: 75px;
+    height: 25px;
+}
+#input-5 {
+    resize: none !important;
+    height: 150px;
+}

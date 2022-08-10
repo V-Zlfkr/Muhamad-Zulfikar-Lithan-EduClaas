@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* HTML */
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 1151px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* CAR DETAIL */
+.car-detail-container {
+    position: relative;
+    background-color: #4b4b4b;
+    top: 172px;
+    width: 80%;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    color: #ffda09;
+    letter-spacing: 1px;
+}
+.car-detail-container img {
+    object-fit: contain;
+    position: absolute;
+    width: 283px;
+    left: 81px;
+}
+.display {
+    position: absolute;
+}
+#car-id {
+    top: 11px;
+    left: 468px;
+}
+#car-model {
+    top: 49px;
+    left: 470px;
+}
+#car-brand {
+    top: 104px;
+    left: 470px;
+}
+#car-registration {
+    top: 76px;
+    left: 470px;
+}
+#car-desc {
+    top: 164px;
+    left: 470px;
+    width: 910px;
+    height: 91px;
+    resize: none;
+    background-color: transparent;
+    color: #ffda09;
+    overflow-x: hidden;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffda09;
+    font-size: 15px;
+}
+#car-price {
+    top: 302px;
+    left: 470px;
+}
+
+
+
+/* BID SECTION */
+.bid-container {
+    position: absolute;
+    background-color: #4b4b4b;
+    width: 80%;
+    height: 493px;
+    top: 626px;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#bid-title {
+    position: absolute;
+    color: #ffda09;
+    top: 23px;
+    left: 86px;
+}
+.bid-container table {
+    position: absolute;
+    color: #ffda09;
+    border-collapse: collapse;
+    width: 673px;
+    top: 108px;
+    left: 89px;
+}
+table, th, td {
+    text-align: center;
+}
+th, td {
+    padding-bottom: 16px;
+}
+th {
+    border-style: solid;
+    border-color: #ffda09;
+    border-width: 1px 0px 0px 0px;
+}
+.bid-container form {
+    position: absolute;
+    width: 515px;
+    height: 353px;
+    top: 78px;
+    left: 869px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bid-container form h1 {
+    color: #ffda09;
+}
+.bid-container form input {
+    font-family: 'Ubuntu', sans-serif;
+    width: 175px;
+    height: 25px;
+    background-color: #6d6d6d;
+    color: #ffda09;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ffda09;
+
+}
+.bid-container form input::placeholder {
+    opacity: 0.5;
+    color: #ffda09;
+}
+.bid-container form button {
+    margin: 15px;
+}
+.admin-msg-container {
+    position: absolute;
+    width: 515px;
+    height: 353px;
+    top: 78px;
+    left: 869px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.admin-msg-container p {
+    color: red;
+    letter-spacing: 1px;
+}

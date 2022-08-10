@@ -1,0 +1,190 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+/* HTML */
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #202020;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+/* HEADER */
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #202020;
+    height: 151px;
+    border-style: solid;
+    border-color: #ffda09;
+    border-width: 0px 0px 5px 0px;
+}
+#logo-1 {
+    position: relative;
+    object-fit: contain;
+    width: 80px;
+    top: 34px;
+    left: 134px;
+}
+.register-title {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    top: -48px;
+    left: 268px;
+}
+.sign-in-title {
+    position: relative;
+    color: white;
+    font-size: 17px;
+    top: -96px;
+    left: 1375px;
+}
+.header-btn {
+    transition: 50ms;
+    position: relative;
+    color: #ffda09;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: #ffda09;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 17px;
+    width: 158px;
+    height: 46px;
+    letter-spacing: 3px;
+    top: -148px;
+}
+.header-btn:hover {
+    background-color: #ffda09;
+    color: #202020;
+}
+#btn-1 {
+    left: 1546px;
+}
+
+
+
+/* REGISTRATION FORM */
+.registration-form {
+    position: absolute;
+    background-color: #313131;
+    width: 1211px;
+    height: 500px;
+    top: 268px;
+    left: 319px;
+}
+#registration-bg {
+    position: relative;
+    object-fit: contain;
+    height: 500px;
+}
+#create-acc-title {
+    position: relative;
+    color: #ffda09;
+    font-size: 27px;
+    top: -452px;
+    left: 404px;
+    letter-spacing: 1px;
+}
+.registration-form form input {
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffda09;
+    background-color: #474747;
+    color: #ffda09;
+    height: 30px;
+    width: 564px;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+.registration-form form input::placeholder {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.identical-input {
+    width: 261px !important;
+}
+#input-1 {
+    top: 154px;
+    left: 460px;
+}
+#input-2 {
+    top: 154px;
+    left: 762px;
+}
+#input-3 {
+    top: 211px;
+    left: 460px;
+}
+#input-4 {
+    top: 267px;
+    left: 460px;
+}
+#input-5 {
+    top: 324px;
+    left: 460px;
+}
+#input-6 {
+    top: 324px;
+    left: 762px;
+}
+#submit {
+    transition: 50ms;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    color: #ffda09;
+    border-style: solid;
+    border-color: #ffda09;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    top: 408px;
+    left: 953px;
+}
+#submit:hover {
+    color: #474747;
+    background-color: #ffda09;
+}
+.warning-msg {
+    position: relative;
+    top: -167px;
+    left: 462px;
+    width: 305px;
+    color: red;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    position: relative;
+    background-color: #ffda09;
+    height: 138px;
+    top: 854px;
+}
+footer p {
+    position: relative;
+    text-align: center;
+    top: 64px;
+}
