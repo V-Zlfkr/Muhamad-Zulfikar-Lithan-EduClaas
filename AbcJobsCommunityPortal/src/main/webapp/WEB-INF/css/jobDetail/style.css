@@ -1,0 +1,173 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* BODY */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/* CARD */
+.card-bg {
+    position: fixed;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 13%);
+    border: rgba(0, 0, 0, 0.123) solid 1px;
+    width: 760px;
+    height: 725px;
+    top: 170px;
+    left: 525px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 7px;
+    scroll-behavior: smooth;
+}
+.card-bg img {
+    position: relative;
+    object-fit: contain;
+    width: 120px;
+    top: 36px;
+    left: 36px;
+}
+#jobtitle {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    resize: none;
+    width: 615px;
+    height: 64px;
+    top: 116px;
+    left: -85px;
+    color: rgb(63, 139, 123);
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    overflow: hidden;
+    background-color: transparent;
+    border-style: none;
+}
+#jobcompany {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 610px;
+    height: 20px;
+    top: 130px;
+    left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-style: none;
+}
+#joblocation {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 610px;
+    height: 20px;
+    top: 132px;
+    left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-style: none;
+}
+#line-1 {
+    position: relative;
+    top: 152px;
+    left: 44px;
+    height: 1px;
+    width: 72px;
+    background-color: rgba(128, 128, 128, 0.39);
+}
+#jobworkplace {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 610px;
+    height: 20px;
+    top: 169px;
+    left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-style: none;
+}
+#jobemployment {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 610px;
+    height: 20px;
+    top: 163px;
+    left: 40px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-style: none;
+}
+#apply-btn {
+    transition: 150ms;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 214px;
+    left: -582px;
+    border: none;
+    background-color: rgb(75, 163, 144);
+    width: 90px;
+    height: 40px;
+    border-radius: 100px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+#apply-btn:hover {
+    background-color: rgb(53, 116, 102);
+}
+#apply-btn:active {
+    transition: 0ms;
+    background-color: rgb(27, 59, 52);
+}
+#delete-btn {
+    transition: 150ms;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: 168px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    background-color: rgb(202, 93, 93);
+    top: 174px;
+    left: 35px;
+}
+#delete-btn:hover {
+    background-color: rgb(163, 75, 75);
+}
+#delete-btn:active {
+    transition: 0ms;
+    background-color: rgb(110, 51, 51);
+}
+/* #line-2 {
+    position: relative;
+    top: 237px;
+    left: 44px;
+    height: 1px;
+    width: 72px;
+    background-color: rgba(128, 128, 128, 0.39);
+} */
+#jobdesc {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    width: 677px;
+    top: 249px;
+    left: 40px;
+    word-wrap: break-word;
+    background-color: transparent;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    white-space: pre-line;
+}

@@ -1,0 +1,289 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* BODY */
+body {
+    overflow-x: hidden;
+    background-color: #001818;
+    width: 100%;
+    height: 3750px;
+    margin: 0;
+}
+#anchor-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin-top: 650px;
+    visibility: hidden;
+}
+#anchor-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-top: 2000px;
+    visibility: hidden;
+}
+
+
+/* NAVBAR */
+nav {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 102px;
+    background-color: white;
+    top: -1px;
+}
+.nav-container {
+    margin: 0;
+}
+.nav-container a {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0EA59C;
+    text-decoration: none;
+    padding-top: 41.5px;
+    padding-bottom: 41.5px;
+}
+.nav-container a:hover {
+    text-decoration: underline;
+}
+.nav-logo img {
+    position: fixed;
+    left: 385px;
+    margin-top: 27px;
+    object-fit: contain;
+    width: 130px;
+}
+.hyper-1 a {
+    position: fixed;
+    left: 1010px;
+}
+.hyper-2 a {
+    position: fixed;
+    left: 1120px;
+}
+.hyper-3 a {
+    position: fixed;
+    left: 1300px;
+}
+.nav-button-1 button {
+    position: fixed;
+    transition: 150ms;
+    top: 31px;
+    left: 1380px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0EA59C;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0EA59C;
+    width: 140px;
+    height: 40px;
+}
+.nav-button-1 button:hover {
+    color: white;
+    background-color: #0EA59C;
+    cursor: pointer;
+}
+.nav-button-1 button:active {
+    transform: scale(0.93);
+}
+
+
+/* SECTION 1 */
+.hero-banner {
+    position: relative;
+    top: 8%;
+}
+.hero-banner img {
+    position: absolute;
+    top: -123%;
+    left: -12%;
+}
+.hero-banner-container {
+    position: relative;
+    margin: 0 0 0 20%;
+}
+.hero-banner-container p, .hero-banner-container button{
+    font-family: 'JetBrains Mono', monospace;
+}
+.text-banner-1 p {
+    position: relative;
+    color: #00D4C0;
+    font-weight: bold;
+    font-size: 92px;
+    letter-spacing: -5px;
+}
+.text-banner-2 p {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 66px;
+    letter-spacing: -5px;
+    top: -110px;
+}
+.text-banner-3 p {
+    position: relative;
+    color: #E0E0E0;
+    font-weight: normal;
+    font-size: 21px;
+    top: -150px;
+}
+.button-banner-1 button {
+    z-index: 1;
+    position: relative;
+    transition: 150ms;
+    width: 171px;
+    height: 61px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #5172D6;
+    border: 0px;
+    top: -130px;
+}
+.button-banner-1 button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #00D4C0;
+}
+.button-banner-1 button:active {
+    cursor: pointer;
+    transform: scale(0.93);
+}
+
+
+/* SECTION 2 */
+.section-2 {
+    position: absolute;
+}
+.section-2 img {
+    position: absolute;
+    object-fit: contain;
+    height: 1378px;
+    top: 600px;
+    left: -213px;
+    opacity: 0.10;
+}
+.text-banner-4 h1 {
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    font-size: 77px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -3px;
+    left: 25%;
+    top: 995px;
+}
+.text-banner-4 h1 span {
+    color: #00D4C0;
+}
+.text-banner-5 p {
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    font-size: 27px;
+    color: white;
+    letter-spacing: -3px;
+    left: 25%;
+    top: 945px;
+}
+
+
+/* SECTION 3 */
+.section-3 {
+    position: absolute;
+}
+.section-3 img {
+    position: absolute;
+    top: 1800px;
+    left: -200px;
+    opacity: 0.17;
+}
+.text-banner-6 h1{
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    top: 2322px;
+    left: 75%;
+    letter-spacing: -3px;
+    font-weight: bold;
+    font-size: 77px;
+    color: white;
+}
+.text-banner-6 h1 span {
+    color: #00D4C0;
+}
+.text-banner-7 p {
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    color: white;
+    top: 2272px;
+    left: 75%;
+    font-size: 27px;
+    text-align: right;
+}
+
+
+/* FOOTER */
+footer {
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 210px;
+    top: 3640px;
+}
+footer img {
+    position: relative;
+    object-fit: contain;
+    margin: 0;
+    height: 31px;
+    left: 21%;
+    top: 50px;
+}
+.footer-copyright p {
+    position: relative;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: #7e7e7e;
+    font-size: 15px;
+    left: 21%;
+    top: 48px;
+}
+#column-1, #column-2 {
+    font-weight: bold;
+}
+.bullet-1 {
+    position: absolute;
+    left: 62%;
+    margin: -40px 0 0 0;
+}
+.bullet-2 {
+    position: absolute;
+    left: 75%;
+    margin: -40px 0 0 0;
+}
+.bullet-1 li, .bullet-2 li {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    margin-bottom: 5px;
+    list-style-type: none;
+    text-align: center;
+}
+.bullet-1 li a, .bullet-2 li a {
+    text-decoration: none;
+    color: black;
+}
+.bullet-1 li a:hover, .bullet-2 li a:hover {
+    text-decoration: underline;
+}

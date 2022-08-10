@@ -1,0 +1,6 @@
+com.abccommunity.event
+com.abccommunity.event.controller
+com.abccommunity.event.dto
+com.abccommunity.event.repository
+com.abccommunity.event.security
+com.abccommunity.event.service
